@@ -36,6 +36,8 @@ public class CustomWebSecurityConfigurerAdapter extends WebSecurityConfigurerAda
 	                    new JWTGenericFilterBean(),
 	                    UsernamePasswordAuthenticationFilter.class
 	            );
+	    
+	    //55
 	}
 
 	
